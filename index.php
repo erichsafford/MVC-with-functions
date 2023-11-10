@@ -1,4 +1,5 @@
 <?php
+    require('model/database.php')
     $newcity = filter_input(INPUT_POST, "newcity", FILTER_SANITIZE_STRING);
     $countrycode = filter_input(INPUT_POST, "countrycode", FILTER_SANITIZE_STRING);
     $district = filter_input(INPUT_POST, "district", FILTER_SANITIZE_STRING);
